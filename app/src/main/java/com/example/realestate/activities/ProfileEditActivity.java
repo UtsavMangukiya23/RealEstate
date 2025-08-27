@@ -222,7 +222,7 @@ public class ProfileEditActivity extends AppCompatActivity {
                 //check which menu item is clicked based on itemId we got
                 if (itemId == 1) {
                     Log.d(TAG,"onMenuItemClick:Camera Clicked,checking permission");
-                    if(Build.VERSION.SDK_INT>=Build.VERSION_CODES,TIRAMISU)
+                    if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.TIRAMISU)
                     {
                         requestCameraPermissions.launch(new String[]{Manifest.permission.CAMERA});
                     }else{
