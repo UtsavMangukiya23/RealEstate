@@ -12,4 +12,5 @@
 
     <string name="back_button">Back</string>
     <string name="my_maps_api_key">AIzaSyBtevzgt1LAbfzmzcv1Xranokl7BiprTTk</string>
+    <string name="price_symbol">$</string>
 </resources>

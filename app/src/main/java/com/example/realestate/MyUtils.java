@@ -1,6 +1,7 @@
 package com.example.realestate;
 
 import android.content.Context;
+import android.icu.text.NumberFormat;
 import android.text.format.DateFormat;
 import android.widget.Toast;
 
@@ -46,5 +47,10 @@ public class MyUtils {
         String date = DateFormat.format("dd/MM/yyyy", calendar).toString();
 
         return date;
+    }
+    public static String formatCurrency(Double price){
+        NumberFormat numberFormat=NumberFormat.getNumberInstance();
+        numberFormat.setMaximumFractionDigits(2);
+        return numberFormat.format(price);
     }
 }

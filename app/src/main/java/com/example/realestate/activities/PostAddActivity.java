@@ -499,6 +499,12 @@ public class PostAddActivity extends AppCompatActivity {
         if (bedRooms.isEmpty()){
             bedRooms="0";
         }
+        if (floors.isEmpty()){
+            floors="0";
+        }
+        if (bathRooms.isEmpty()){
+            bathRooms="0";
+        }
 
         //get current timestamp
         long timestamp = MyUtils.timestamp();
